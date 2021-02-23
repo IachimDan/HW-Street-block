@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Street Block | CSS</title>
+        <style>
+            body{
+               background-color: #223; 
+            }
+            .street{
+               border-bottom: 3px dashed grey;
+               padding-top: 10px;
+            }
+            
+            .house{
+                background-color: antiquewhite;
+                height: 150px;
+                width: 100px;
+               /* border: 1px solid green;*/
+                display: inline-block;
+            }
+            .building-tall{
+                display: inline-block;
+                height: 300px;
+                width: 100px;
+                background-color: beige;
+
+            }
+            .tall-roof{
+                border: 10px solid brown;
+            }
+            .tall-door{
+                border: 2px solid brown;
+                width: 35px;
+                height: 60px;
+                transform: translateX(31px) translateY(212px);
+            }
+            .tall-window-left{
+                border: 2px solid brown;
+                width: 15px;
+                height: 30px;
+                
+                transform: translateX(11px) translateY(5px);
+            }
+            .tall-window-right{
+                border: 2px solid brown;
+                width: 15px;
+                height: 30px;
+                
+                transform: translateX(70px) translateY(20px);
+            }
+
+            .cloud{
+                width: 50px;
+                
+                display: inline-block;
+                vertical-align: top;
+                padding-left: 20px;
+                padding-top: 50px;
+            }
+            .building-small{
+                display: inline-block;
+                height: 150px;
+                width: 250px;
+                background-color: beige;
+                margin-right: 10px;
+                
+            }
+            .small-door-left{
+                border: 2px solid brown;
+                height: 40px;
+                width: 55px;
+                transform: translateX(45px) translateY(100px);
+            }
+            .small-door-right{
+                border: 2px solid brown;
+                height: 40px;
+                width: 55px;
+                transform: translateX(150px) translateY(56px);
+            }
+            .big-window{
+                border: 2px solid brown;
+                width: 100px;
+                height: 30px;
+                transform: translateX(75px) translateY(-60px);
+            }
+            .car{
+                display: inline-block;
+                font-size: 75px;
+                transform: translateX(0px) translateY(-10px);
+            }
+            .tree{
+                display: inline-block;
+                font-size: 71px;
+                transform: translateX(0px) translateY(-15px);
+            }
+            .grass{
+                border: 25px solid green;
+                margin-bottom: 3px;
+            }
+            .house-roof{
+                height: 0px;
+                width: 0px;
+
+                /* TRIANGLE */
+                border: 50px solid white;
+                border-top-width: 0px;
+                border-left-color: transparent;
+                border-right-color: transparent;
+                border-bottom-color: brown;
+                border-bottom-width: 70px;
+            }
+            .horn{
+                border: 12px solid rgb(99, 65, 1);
+                border-left-color: transparent;
+                border-bottom-color: transparent;
+                transform: translateX(15px) translateY(27px) rotate(10deg);
+                
+            }
+            .house-wall{
+                background-color: antiquewhite;
+                height: 80px;
+            }
+            .house-window{
+                width: 30px;
+                height: 30px;
+                border: 2px solid brown;
+                transform: translateX(33px) translateY(23px);
+                
+            }
+
+            .section-window{
+                border-right: 2px solid brown;
+                width: 14px;
+                height: inherit;
+            }
+
+            .section-window-2{
+                border-bottom: 2px solid brown;
+                width: 30px;
+                height: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="street">
+            
+            <div class="house">
+                <div class="house-roof">
+                    <div class="horn">
+
+                    </div>
+                    <!--
+                        HW*:
+                            add horn, window...
+                    -->
+                </div>
+                <div class="house-wall">
+                    <div class="house-window">
+                        <div class="section-window">
+                            <div class="section-window-2">
+
+                            </div>
+                        </div>
+                        <!--
+                            HW1:
+                                creati seciuni in interiourul ferestrei
+                        -->
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="building-tall">
+                <div class="tall-roof">
+                    
+                </div>
+                <div class="tall-door">
+
+                </div>
+                <div class="tall-window-left">
+
+                </div>
+                <div class="tall-window-right">
+
+                </div>
+            </div> 
+            <div class="cloud">
+                <img src="https://icons.iconarchive.com/icons/flaticonmaker/flat-style/48/cloud-icon.png" alt="cloud"/>
+            </div>
+            
+            <div class="building-small">
+                <div class="small-door-left">
+
+                </div>
+                <div class="small-door-right">
+
+                </div>
+                <div class="big-window">
+
+                </div>
+            </div>
+
+            <div class="car">
+                🚗
+            </div>
+
+            <div class="tree">
+                🌴🌴🌴🌴
+            </div>
+            <div class="grass">
+
+            </div>
+        </div>
+
+
+    </body>
+</html>
